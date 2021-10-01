@@ -6,18 +6,8 @@
         <meta name = "viewport" content="width=device-width, initial-scale=1.0">
         <title> Tips estudiantes UEM </title>
     </head>
-    <body style="background-color:rgb(156, 151, 151);"> <!-- cuerpo --> 
+    <body style="background-color:rgb(202, 16, 16);"> <!-- cuerpo --> 
         <img src="campus.jpg" alt="Campus de la Universiad"  width="1300" height="450" >
-
-        <h2>HTML Forms</h2>
-
-        <form action="/Forms.html">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value=" " required><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value=" " required><br><br>
-            <input type="submit" value="Submit">
-        </form> 
 
         <header>
             <h2 style="font-family:courier;">Tips para nuevos estudiantes UEM  </h2>
@@ -116,18 +106,6 @@
             x="50" y="86">UEM</text>
           Tu navegador no tolera este elemento
           </svg>
-
-          
-        <form action = "test.php">
-            <label for="fname">Introduce tu nombre:</label><br>
-            <input type="text" id="fname" name="fname" value="..." required><br>
-            <label for="lname">Introduce tu apellido:</label><br>
-            <input type="text" id="lname" name="lname" value="..." required><br><br>
-            <input type="Mandar" value="Mandar"> <br>
-            <label for='email'> Introduce tu Email </label> <br>
-            <input id = 'email' name = 'email' type = "email"> </input> <br>
-            <input type="Mandar" value="Mandar"> </input>
-        </form>
        
        <footer>
         <a id="contactame"></a>
@@ -140,7 +118,7 @@
         </dl>
       </footer>
 
-      <h2 style="font-family:courier;"> Mi horario posible. (Por poner una tabla y probar como es)</h2>
+      <h2 style="font-family:courier;"> Mi horario posible </h2>
       <table>
         <tr>
           <th>Día</th>
@@ -155,6 +133,25 @@
           <td>12:00</td>
         </tr>
       </table>
+
+      <h2 style="font-family:courier;">Dame tu <span class = 'texto_resaltado'> opinión: </span></h2>
+
+        <form action="Forms.html">
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname" value=" " required><br>
+            <label for="lname">Apellido:</label><br>
+            <input type="text" id="lname" name="lname" value=" " required><br><br>
+
+            <p> Además, completa este test con la opción que creas conveniente para puntuar la web:</p>
+            <input type="radio" id="bien" name="fav_language" value="Megusto">
+            <label for="Bien">Me gusto</label><br>
+            <input type="radio" id="regular" name="fav_language" value="Regular">
+            <label for="regular">Regular</label><br>
+            <input type="radio" id="mal" name="fav_language" value="mal">
+            <label for="mal">Mejorable</label> <br> <br>
+
+            <input type="submit" value="Submit">
+        </form> 
 
     </body>
 </html>
