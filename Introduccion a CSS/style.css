@@ -1,0 +1,14 @@
+h1 {
+    color : green
+}
+
+.blueitalic {
+    color : blue;
+    font-style : italic;
+}
+
+body {
+    background-color : yellowgreen;
+    color : black
+    
+}
