@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+h2 {
+    color:gold;
+    background-color: red;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    text-align: left;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    text-decoration: solid;
+    font-size-adjust: inherit;
+}
+
+#imagenMiguel {
+    margin: auto;
+}
+
+.texto_resaltado {
+    text-decoration: underline;
+}
+
+label:hover {
+    background-color: red;
+}
+
+body {
+    background-attachment: fixed;
+    background-color:gold;
+}
