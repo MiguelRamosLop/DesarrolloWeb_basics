@@ -2,8 +2,7 @@
 
 
 h2 {
-    color:gold;
-    background-color: red;
+    color:black;
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
     text-align: left;
@@ -25,10 +24,11 @@ p {
 }
 
 label:hover {
-    background-color: red;
+    background-color: blue;
 }
 
 body {
     background-attachment: fixed;
-    background-color:gold;
+    background-color:whitesmoke;
 }
+
