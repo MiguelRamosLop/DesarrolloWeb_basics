@@ -74,3 +74,28 @@ h1 {
     color: var(--dark_blue);
 }
 
+.footer {
+    padding: 40px 0px;
+    text-align: center;
+    width: 100%;
+    background-color: var(--dark_blue);
+}
+
+.footer a {
+    background:rgb(223, 3, 138);
+    border:1px solid rgb(216, 17, 206);
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    background: white;
+    border: 2px solid rgb(216, 17, 206);
+    color: var(--dark_blue);
+    font-weight: bold;
+}
+
