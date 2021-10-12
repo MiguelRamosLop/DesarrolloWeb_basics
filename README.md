@@ -1,2 +1,2 @@
 # DesarrolloWeb_basics
-Desarrollo web y apps 
+Temario completo sobre Desarrollo web y apps. FrontEnd y BackEnd. Html y CSS
