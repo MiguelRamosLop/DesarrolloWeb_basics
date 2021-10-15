@@ -30,7 +30,7 @@
     margin: 0 auto;
     padding: 50px;
     color: brown;
-    font-family: 'Bebas Neue', cursive;
+    font-family:'Courier New', Courier, monospace;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
@@ -40,14 +40,14 @@
   
 h1 {
     color:brown;
-    font-family: 'Bebas Neue', cursive;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 48px;
     text-align: left;
 }
 
 h2 {
     color:black;
-    font-family: 'Bebas Neue', cursive;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
     text-align: left;
 }
