@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+#banner {
+    background-image: url("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    background-position: bottom center;
+    height: 70vh;  
+    width: 100vw;   /* Lo  puedo poner tambien como 100% */
+  }
+
+.product {
+    width: auto;
+    height: auto;
+}
+
+#subtitulo {
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    text-align: left;
+}
+
+#banner #subtitulo {
+    text-align: center;
+    border: 2px solid white;
+    position: relative;
+    top: 20vh;
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    color: brown;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: burlywood;
+    opacity: 90%;
+}
+  
+h1 {
+    color:brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: auto;
+    text-align: left;
+}
+
+h2 {
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: auto;
+    text-align: left;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    text-decoration: solid;
+    font-size-adjust: inherit;
+}
+
+
+  html {
+      background-color: antiquewhite;
+  }
+
+  .cajas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+
+  .caja_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: black;
+    background-color:white;
+    font-size: 2em;
+  }

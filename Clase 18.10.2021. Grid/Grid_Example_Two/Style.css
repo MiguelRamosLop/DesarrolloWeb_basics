@@ -1,0 +1,50 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20vh 20vh 60vh;
+    grid-auto-rows: 50px; 
+    grid-gap: 10px;
+    
+   /*grid-column-gap: 10px;
+    grid-row-gap: 30px;
+    grid-gap: 10px 30px;*/
+    padding: 0;
+    margin: 1% auto;
+    list-style: none;
+   
+   } 
+   
+   .grid-item {
+    background: grey;
+    color: white;
+    font-weight: bold;
+    font-size: 3em; /* 3 veces el tamaño del tipo de letra actual*/
+    font-family: Pacifico;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+   }
+   .item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* grid-column: 1 / 4; */
+    background: rgb(206, 19, 19);
+    color: white;
+   }
+   
+   .item2 {
+    grid-row: 2/4;
+    background-color: blue;
+   } 
+   .item7{
+    grid-column: 1 / 4;
+    background-color: chartreuse;
+   }
+   
+   .itemx12{
+       grid-column: 2 / 4;
+       background-color: aqua;
+   }
+   
