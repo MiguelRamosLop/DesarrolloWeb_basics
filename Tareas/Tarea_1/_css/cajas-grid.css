@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
-
 #banner {
     background-image: url("https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
     background-size: cover;
     background-position: bottom center;
     height: 70vh;  
     width: 100vw;   /* Lo  puedo poner tambien como 100% */
-}
+  }
 
 .product {
-    width: 50%;
+    width: 90%;
     height: auto;
 }
 
-  #subtitulo {
+#subtitulo {
     color:white;
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
@@ -60,37 +59,32 @@ p {
     font-size-adjust: inherit;
 }
 
-
 html {
     background-color: antiquewhite;
 }
 
-
-.grid_container  {
+.cajas {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr ;
-    width: 80%;
-    margin: 0 auto;
-}
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 50px; 
+    grid-gap: 10px;
+    padding: 0;
+    margin: 1% auto;
+    list-style: none;
+} 
 
-.grid_item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
+
+.caja_texto {
     color: black;
     background-color: white;
-    width: 30%;
-    height: auto;
-    padding: 20px;
     margin: 30px;
-    text-decoration: none;
+    padding: 20px;
+    height: auto;
 }
 
-
 @media only screen and (max-width: 600px) {
-    .grid_item{
+    .caja_texto{
         width: 90%;
     }
 }
