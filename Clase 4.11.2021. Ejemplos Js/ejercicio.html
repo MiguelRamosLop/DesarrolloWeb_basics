@@ -48,6 +48,44 @@ function calcula_edad_humana(){
     }
 }
 
+const persona = {
+    nombre: "Juan",
+    edad: 20,
+    direccion: {
+        calle: "Calle falsa",
+        numero: "123"
+    }
+}
+
+console.log(persona.nombre)
+console.log(persona.direccion.calle)
+console.log(persona['edad'])
+
+let paragraph = document.createElement("p");
+text = persona.nombre + " tiene " + persona.edad + " años.";
+let texto = document.createTextNode(text);
+paragraph.appendChild(texto);
+
+//dos formas de buscar el elemento
+//document.getElementById("resultado").appendChild(paragraph);
+//document.querySelector("#resultado").appendChild(texto);
+
+//document.querySelectorAll("#resultado")
+
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+juan = new Person("Juan", 20);
+miguel = new Person("Miguel", 30);
+console.log(juan.name);
+console.log(miguel.name);
+
+
+
 </script>
 </head>
 
