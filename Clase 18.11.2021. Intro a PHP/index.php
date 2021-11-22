@@ -7,7 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <?php 
+    <?php   
+
         echo "<h1> Hola Mundo </h1>";
         //comentario en linea
         # comentario tipo python
@@ -30,6 +31,12 @@
             echo "Domingo, dia de relass";
         else
             echo "Es martes. AHHHHHH";
+
+        function escribir_datos ($nombre, $edad){
+            return "Tus datos son " . $nombre . " " .$edad;
+        }
+        echo "<br>";
+        echo escribir_datos("Miguel", 20);
 
 
 

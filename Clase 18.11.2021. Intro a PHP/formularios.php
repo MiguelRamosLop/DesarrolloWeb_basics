@@ -8,6 +8,8 @@
 </head>
 <body>
     <?php 
+        $expira = time() + 60 * 60 * 24 * 30; //60 segundos * 60 minutos * 24 horas * 30 días 
+        setcookie( “usuario”, “Pepe”, $expira ); 
         echo "<h1> Formularios </h1>";
     ?>
     <form action="bienvenidad.php", method="post">
